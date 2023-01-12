@@ -38,6 +38,9 @@ color: black;
 a {
 color: red;
 }
+a:hover {
+color:blue;    
+}
 img {
 border-spacing: 10px;
 border-color: red;
