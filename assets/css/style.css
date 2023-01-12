@@ -5,7 +5,7 @@ font-family: Arial, Helvetica, sans-serif;
 color:black
 }
 h1 {
-border-bottom: 10px;
+border-bottom: 20px;
 border-color: crimson;
 text-transform: uppercase;
 text-align: center;
@@ -42,9 +42,8 @@ a:hover {
 color:blue;    
 }
 img {
-border-spacing: 10px;
-border-color: red;
-border: 1px;
+border: 1px solid red;
+padding: 10px;
 border-width: 250px;
 opacity: 0.5;
 }
