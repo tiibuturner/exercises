@@ -42,13 +42,13 @@ a:hover {
 color:blue;    
 }
 img {
-border: 1px solid red;
+border: 1px solid #FF0000;
 padding: 10px;
 border-width: 250px;
 opacity: 0.5;
 }
 figure {
-border: 1px solid red;
+border: 1px solid #FF0000;
 padding: 10px;
 border-width: 250px;
 opacity: 0.5;
