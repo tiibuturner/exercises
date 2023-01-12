@@ -48,7 +48,10 @@ border-width: 250px;
 opacity: 0.5;
 }
 figure {
-
+border: 1px solid red;
+padding: 10px;
+border-width: 250px;
+opacity: 0.5;
 }
 .warning {
 
