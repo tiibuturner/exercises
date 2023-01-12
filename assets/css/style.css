@@ -5,13 +5,10 @@ font-family: Arial, Helvetica, sans-serif;
 color:black
 }
 h1 {
+font-size: 16px;
 border-bottom: 20px;
-border-color: crimson;
 text-transform: uppercase;
 text-align: center;
-margin-top: 10px;
-margin-left: 5px;
-font-size: 16px;
 font-style: italic bold;   
 font-family: Arial, Helvetica, sans-serif;
 color:darkred;
