@@ -7,37 +7,21 @@
     <link href="assets/css/style1.css" rel="stylesheet" type="text/css">
     <title>Let's Learn Flex Box</title>
 
-    <style>
-        
-        body {
-        margin: 0;
-      }
-      header, footer {
-        background: purple;
-        height: 100px;
-      }
-
-      h1 {
-        text-align: center;
-        color: white;
-        line-height: 100px;
-        margin: 0;
-      }
-
-      article {
-        padding: 10px;
-        margin: 10px;
-        background: aqua;
-
-      }
-      </style>
 </head>
 <body>
     <header>
+        
         <h1>Flex Box Examples </h1>
       </header>
-        <article style="flex-grow: 1;">
-        <div class="flexContainer">
+      <div class="main">
+        <sidebar style="flex-grow: 2;">
+            side bar<br>
+            side bar<br>
+            side bar<br>
+            side bar<br>
+        </sidebar>
+        <section>
+        <article>
           <h2>What is HTML?</h2>
           <p>
             Hypertext Markup Language (HTML) is the standard markup language for 
@@ -45,22 +29,16 @@
             It is a markup language that tells browser how to structure a web page. HTML is made up of sereis of elements such as a piece of text, a pragraph, 
              list, table, links or forms.
           </p>
-        </div>
         </article>
-  
         <article>
-        <div class="flexContainer">
          <h2>HTML Elements</h2>
-  
-          <p>
+         <p>
             As in the above example, html document consists of a tree of elements and text. 
             Each element starts with a tag and ends with a tag.
              Tags have to be nested such that they are completely within each other without overlapping .
           </p>
-        </div>
         </article>
-        <article style="flex-grow: 4;">
-        <div class="flexContainer">
+        <article>
           <h2>Block Level Elements</h2>
   
           <p>

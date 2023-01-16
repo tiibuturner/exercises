@@ -1,15 +1,35 @@
 body {
-    background-color: beige;
-}
-article {
-    flex: 1;
-}
-article:nth-of-type(2) {
-    flex: 3;
-}
-.flexContainer {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: aqua;
-    align-content: space-between;
+    margin: 0;
   }
+  header, footer {
+    background: purple;
+    height: 100px;
+  }
+
+  h1 {
+    text-align: center;
+    color:beige;
+    line-height: 100px;
+    margin: 0;
+  }
+
+  article {
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+
+  }
+sidebar {
+    margin: 10px;
+    min-width: 200;
+    background-color: beige;
+    text-align: left;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
