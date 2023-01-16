@@ -6,6 +6,7 @@ color:black
 }
 section {
     display: flex;
+    flex-direction:column;
 }
 h1 {
 font-size: 16px;
