@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: beige;
   }
   header, footer {
     background: purple;
@@ -24,6 +25,9 @@ sidebar {
     min-width: 200;
     background-color: beige;
     text-align: left;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .main {
     display: flex;
