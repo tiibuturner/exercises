@@ -1,50 +1,79 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Tiina Ylimäki" />
-    <meta name="description" content="HAMK, tietojenkäsittely, tradenomi." />
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-    <title>Tiina Ylimäki - Exercise 4</title>
+    <title>Let's Learn Flex Box</title>
+
+    <style>
+        
+        body {
+        margin: 0;
+      }
+
+      header, footer {
+        background: purple;
+        height: 100px;
+      }
+
+      h1 {
+        text-align: center;
+        color: white;
+        line-height: 100px;
+        margin: 0;
+      }
+
+      article {
+        padding: 10px;
+        margin: 10px;
+        background: aqua;
+
+      }
+      </style>
 </head>
 <body>
-    <main>
-    <h1>Tietojenkäsittely, tradenomi (AMK)</h1>
-    <h2>Tietojenkäsittelyn koulutuksen sisältö</h2>
-    <img src="assets/images/hamkkuva.png" alt="Photo info" height="200" width="200" style="float:right; margin-left: 15px;">
-    <p><strong>Tietojenkäsittelyn tradenomin</strong>, jota <i>IT-tradenomiksi</i> 
-    myös kutsutaan, tutkinnon laajuus on <u>210 opintopistettä</u>.
-    <mark>3,5 vuotta</mark> kestävän koulutuksen voit suorittaa päiväopintoina tai työn ohessa monimuoto-opintoina.</p>
-    <br> <h2>Työelämälähtöistä ja käytännönläheistä opiskelua.</h2>
-    <p>Tietojenkäsittelyn koulutuksessa valmennamme sinusta 
-    ammattitaitoisen ICT- eli tieto- ja viestintäteknologiaalan osaajan, 
-    jolla on myös ymmärrystä modernista liiketoiminnasta. 
-    IT-tradenomina toimit paljon erilaisten ihmisten kanssa ja osaat kehittää ja hyödyntää tietojärjestelmiä siten, 
-    että asiakasyritysten toimintaedellytykset ja liiketoimintamahdollisuudet paranevat. Näkökulmamme opiskeluun on käytännöllisen asiakaslähtöinen, 
-    ei teoreettinen.
-    <br> Valmistuttuasi sinulla on laaja-alainen tradenomitutkinto ja vahva ammatillinen perusosaaminen omalta suuntautumisalueeltasi. Olet haluttua työvoimaa monille työnantajille. 
-    Meiltä valmistuneet ovat perinteisesti työllistyneet erinomaisesti.</p>
-    </main>
-    <br> <h2>Ydinosaaminen ja profiloiva osaaminen.</h2>
-    <p>Tietojenkäsittelyn opinnot ovat jaettu kaikille yhteisiin opintoihin (ydinosaaminen) ja profiloiviin opintoihin. 
-    Ydinosaamisen opinnoissa opiskelet keskeisiä tietojenkäsittelyn taitoja, kuten ohjelmointia ja erilaisten järjestelmien käyttöä ja hallintaa.
-    <br> Ydinosaamisen opintojen jälkeen valitset oman mielenkiintosi mukaisesti profiloivan opintokokonaisuuden,
-    jonka parissa haluat syventää työelämätaitojasi. Tietojenkäsittelyssä tarjoamme sinulle  mahdollisuuden valita kolmen profiloivan opintokokonaisuuden väliltä.</p>
-    <h3> Profiloivat opintokokonaisuudet: </h3>
-    <ul>
-        <li>Web ja mobiilikehitys (päiväopinnot, monimuoto-opinnot itsenäisempänä)</li>
-        <li>Datatiede ja tekoäly (päiväopinnot)</li>
-        <li>Ohjelmistotuotanto ja pilvipalvelut (päiväopinnot, monimuoto-opinnot)</li>
-    </ul>
-    <p><br> Profiloivissa opinnoissa opetuskieli päivätoteutuksessa on lähtökohtaisesti englanti. <br>
-    <br> Monimuotototeutuksessa tarjoamme ensisijaisesti yhtä profiloivaa opintokokonaisuutta (18-100), 
-    sekä tämän rinnalla web- ja mobiilikehityksen profiloivaa opintokokonaisuutta itsenäisemmin opiskeltavana (247).
-    Opintojen aikana sinulla on myös mahdollisuus opiskella erilaisia liiketoiminnan tietojärjestelmiä.
-    Liiketoiminnan tietojärjestelmien opinnot on osittain integroitu pakollisiin ydinaineopintoihin ja näihin kuuluu esimerkiksi 
-    analytiikkaan sekä ohjelmistorobotiikkaan ja -automaatioon liittyviä opintoja.
-    <br>Tarjoamme myös erilaisia valinnaisia opintoja esimerkiksi peliohjelmointiin ja low-code kehitykseen liittyen.<br></p>
-    <p><br><a href="https://www.hamk.fi/amk-tutkinto/tietojenkasittely-tradenomi-amk/" target="_blank"> Täältä</a> voit lukea enemmän.</p>
+    <header>
+        <h1>Flex Box Examples </h1>
+      </header>
+
+      <section>
+          
+        <article>
+          <h2>What is HTML?</h2>
+          <p>
+            Hypertext Markup Language (HTML) is the standard markup language for 
+            documents that are designed to be displayed in a web browser. HTML is not a programming language. 
+            It is a markup language that tells browser how to structure a web page. HTML is made up of sereis of elements such as a piece of text, a pragraph, 
+             list, table, links or forms.
+          </p>
+        </article>
+  
+        <article>
+          <h2>HTML Elements</h2>
+  
+          <p>
+            As in the above example, html document consists of a tree of elements and text. 
+            Each element starts with a tag and ends with a tag.
+             Tags have to be nested such that they are completely within each other without overlapping .
+          </p>
+        </article>
+  
+        <article>
+          <h2>Block Level Elements</h2>
+  
+          <p>
+            Block-level elements form a visible block on a page. A block-level element appears on a new line 
+            following the content that precedes it. Any content that follows a block-level element also 
+            appears on a new line. Block-level elements are usually structural elements on the page.
+             For example, a block-level element might represent headings, paragraphs, lists, navigation 
+             menus, or footers. A block-level element wouldn't 
+            be nested inside an inline element, but it might be nested inside another block-level element.
+          </p>
+        </article>
+      </section> 
+      <footer>
+        <h1>Learning Flex @ 2022</h1>
+    </footer>
 </body>
 </html>
