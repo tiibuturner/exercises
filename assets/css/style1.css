@@ -1,7 +1,5 @@
-section {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 200px;
+body {
+    background-color: beige;
 }
 article {
     flex: 1;
@@ -12,10 +10,6 @@ article:nth-of-type(2) {
 .flexContainer {
     display: flex;
     flex-wrap: wrap;
-    background-color: bisque;
-}
-.flexGrowContainer {
-    display: flex;
-    align-items:stretch;
-    background-color: greenyellow;
-}
+    background-color: aqua;
+    align-content: space-between;
+  }

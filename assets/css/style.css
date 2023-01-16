@@ -38,8 +38,8 @@ a:hover {
 color:mediumblue;    
 }
 img {
-border-style: 1px solid #FF0000;
+border: 1px solid #FF0000;
 padding: 10px;
-border-width: 250px;
+border-width: 250p;
 opacity: 0.5;
 }
