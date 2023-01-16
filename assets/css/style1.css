@@ -1,0 +1,11 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 200px;
+}
+article {
+    flex: 1;
+}
+article:nth-of-type(2) {
+    flex: 3;
+}
