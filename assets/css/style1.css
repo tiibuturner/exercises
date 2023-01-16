@@ -17,5 +17,5 @@ article:nth-of-type(2) {
 .flexGrowContainer {
     display: flex;
     align-items:stretch;
-    background-color:aquamarine;
+    background-color: greenyellow;
 }
