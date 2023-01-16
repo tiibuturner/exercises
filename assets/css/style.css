@@ -6,8 +6,15 @@ color:black
 }
 section {
     display: flex;
-    flex-direction:column;
+    flex-wrap: wrap;
+    flex: 200px;
 }
+article {
+    flex: 1;
+}
+article:nth-of-type(2) {
+    flex: 3;
+  }
 h1 {
 font-size: 16px;
 border-bottom: 10px;
