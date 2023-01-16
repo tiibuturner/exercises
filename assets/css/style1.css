@@ -9,3 +9,13 @@ article {
 article:nth-of-type(2) {
     flex: 3;
 }
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+}
+.flexGrowContainer {
+    display: flex;
+    align-items: center;
+    background-color: darkolivegreen;
+}
