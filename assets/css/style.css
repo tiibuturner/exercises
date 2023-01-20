@@ -40,6 +40,6 @@ color:mediumblue;
 img {
 border: 1px solid #FF0000;
 padding: 10px;
-border-width: 250px;
+width: 250px;
 opacity: 0.5;
 }
