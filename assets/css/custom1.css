@@ -12,19 +12,34 @@ h1 {
 article {
     padding: 10px;
     margin: 10px;
-    background: beige;
 }
 section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 footer, header {
+    height: 70px;
+    background-color: midnightblue;
+    color: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+p {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.NavBar {
     height: 100px;
     background-color: midnightblue;
     color: gainsboro;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-p {
-    font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.col-4 {
+    background-color: dodgerblue;
+}
+.col-6 {
+    background-color: limegreen;
+}
+.col-2 {
+    background-color: yellow;
 }

@@ -10,13 +10,46 @@
 </head>
 <body>
     <div class="container">
-    <header>
-        Navigation bar- COMING SOON.
+    <header class="row">
+        <nav class="navbar navbar-expand-lg navbar .NavBar" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Frontpage of Exercises</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Exercises
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="exercise1.html">Exercise 1</a></li>
+                      <li><a class="dropdown-item" href="exercise2.html">Exercise 2</a></li>
+                      <li><a class="dropdown-item" href="exercise3.html">Exercise 3</a></li>
+                      <li><a class="dropdown-item" href="exercise4.html">Exercise 4</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="sampuri.html">Picture of Samu</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
-    <main>
-        <div class="container text-center">
-        <div class="row align-items-start">
-        <div class="col">
+    <main class="row">
+       
+        <div class="col-4">
     <h1>Bootstrap Example</h1>
     <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nobis eaque dolorum quia modi obcaecati veritatis! 
@@ -25,26 +58,26 @@
     </p>
     <img src="assets/images/moi.jpg"alt="Photo info">
         </div>
-        <div class="col">
+        <div class="col-6">
     <h1>Example continues.</h1>
     <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, deserunt! 
         Eius similique ut possimus nam voluptates qui laudantium modi tenetur! Placeat unde pariatur minus molestias natus magni error tenetur suscipit.
     </p>
+    <figure>
+        <img src="assets/images/spindelmannen.jpg" alt="Photo info" style="height: 400px; width: 400px;">
+        <figcaption>I want pictures of Spider-Man!</figcaption>
+    </figure>
         </div>
-        <div class="col">
+        <div class="col-2">
     <h1>Examples never sthap.</h1>
     <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
         Doloremque iure nam quasi ipsam, distinctio totam est velit soluta magnam tenetur. Ullam, natus tenetur magni totam explicabo laudantium? Rerum, minima? Animi.
     </p>
-    <figure>
-        <img src="assets/images/spindelmannen.jpg" alt="Photo info" style="height: 300px; width: 300px;">
-        <figcaption>I want pictures of Spider-Man!</figcaption>
-    </figure>
         </div>
     </main>
-    <footer>
+    <footer class="row">
         <p> This is a footer. </p>
     </footer>
     </div>
