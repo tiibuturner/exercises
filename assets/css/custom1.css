@@ -1,0 +1,30 @@
+body {
+    background-color: gainsboro;
+    margin: 5px;
+}
+h1 {
+    color: midnightblue;
+    size: medium;
+    line-height: 100px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article {
+    padding: 10px;
+    margin: 10px;
+    background: beige;
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+footer, header {
+    height: 100px;
+    background-color: midnightblue;
+    color: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
